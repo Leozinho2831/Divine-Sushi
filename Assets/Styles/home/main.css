@@ -169,7 +169,7 @@
 }
 
 .menu__icons {
-    border: 1.5px solid #DBDFD0;
+    border: 1.5px solid var(--border-icon);
     border-radius: 12px;
 
     padding: 40px 34px;
@@ -182,7 +182,7 @@
 }
 
 .menu__icons figure {
-    background-color: rgba(77, 89, 43, 0.07);
+    background-color: var(--background-icons);
 
     border-radius: 100%;
     width: 100px;
