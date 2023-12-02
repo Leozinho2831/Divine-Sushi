@@ -7,8 +7,12 @@
     --principal-font: 'DM Sans', sans-serif;;
     --secundary-font: 'Playfair Display', serif;
 
+    --header-background: #474747;
     --headerContact-color: #F9F9F7;
+    --menu-color: #f5f5f2;
+    --borderMenu-header: #2e2e2e;
     --backgroundRedes-sociais: rgba(249, 249, 247, 0.12);
+
     
     --text-color: #2C2F24;
     --shadow: rgba(0, 0, 0, 0.4);
@@ -19,8 +23,6 @@
 
     --borderButton: #2d3025;
     --buttonMenu-hover: rgb(221, 214, 214);
-
-    --header-background: #474747;
 }
 
 *{
