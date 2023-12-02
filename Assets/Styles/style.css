@@ -28,6 +28,16 @@
     --header-background: #474747;
 }
 
+@keyframes menuOpen{
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(100%);
+    }
+}
+
 *{
     padding: 0;
     margin: 0;
