@@ -1,35 +1,53 @@
-body {
-    overflow-x: hidden;
-}
-
-.home__main {
-    background-image: url(../../Images/Home.png);
-    height: 100vh;
+.home__main{
     width: 100vw;
+    height: 100%;
+
     background-repeat: no-repeat;
-    background-size: contain;
 }
 
-.home__main__principal {
+.home__main__principal{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    max-width: 770px;
-    margin: 0 auto;
+
     text-align: center;
     overflow-x: hidden;
 }
+.home__main__principal figure{
+    position: relative;
+}
 
-.home__main__title {
-    font-size: 6.25rem;
+.home__main__principal figure img{
+    width: 100vw;
+    height: 100%;
+}
+
+.infos__home{
+    max-width: 700px;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.infos__home h1{
+    font-size: clamp(4rem, 5vw, 6.25rem);
     font-family: var(--secundary-font);
     font-weight: 400;
 }
 
-.home__main__text {
+.infos__home p{
     font-size: 1.25rem;
     font-family: var(--principal-font);
-    
 }
+
+.home__button a:first-of-type{
+
+}
+ /* item de cima vai pega primeiro item a */
+
+ .home__button a:last-of-type{
+
+ }
+
+ /* este vai pega ultimo item desse, por isso do of type, tem tb outros como child que seria filho */
