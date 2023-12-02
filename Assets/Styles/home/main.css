@@ -73,8 +73,6 @@
     background-color: #5e171d;
 }
 
- /* item de cima vai pega primeiro item a */
-
  .home__button a:last-of-type{
     background-color: transparent;
     border: 2px solid black;
@@ -95,5 +93,3 @@
 .home__button a:last-of-type:hover {
     background-color: rgb(192, 187, 187);
 }
-
- /* este vai pega ultimo item desse, por isso do of type, tem tb outros como child que seria filho */
