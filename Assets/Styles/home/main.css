@@ -1,11 +1,11 @@
-.home__main{
+.home__main {
     width: 100vw;
     height: 100%;
 
     background-repeat: no-repeat;
 }
 
-.home__main__principal{
+.home__main__principal {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,16 +15,16 @@
     overflow-x: hidden;
 }
 
-.home__main__principal figure{
+.home__main__principal figure {
     position: relative;
 }
 
-.home__main__principal figure img{
+.home__main__principal figure img {
     width: 100vw;
     height: 100%;
 }
 
-.infos__home{
+.infos__home {
     max-width: 350px;
 
     margin: 0 30px;
@@ -33,9 +33,7 @@
     z-index: 1;
 }
 
-.infos__home h1{
-    margin: 0 0 25px 0;
-
+.infos__home h1 {
     font-size: clamp(2rem, 4vw, 6.25rem);
     font-family: var(--secundary-font);
     font-weight: 400;
@@ -43,9 +41,7 @@
     color: var(--text-color);
 }
 
-.infos__home p{
-    margin: 0 0 25px 0;
-
+.infos__home p {
     font-size: clamp(0.4rem, 2vw, 1.25rem);
     font-family: var(--principal-font);
     font-weight: 400;
@@ -53,21 +49,20 @@
     color: var(--text-color);
 }
 
-.home__button{
+.home__button {
     display: flex;
     justify-content: center;
     
     gap: 16px;
 }
 
-.home__button a:first-of-type{
+.home__button a:first-of-type {
     display: flex;
     align-items: center;
     justify-content: center;
 
     width: 130px;
     height: 45px;
-    padding: 10px;
 
     background-color: var(--button-color);
     border-radius: 120px;
@@ -86,7 +81,7 @@
     background-color: var(--buttonTable-hover);
 }
 
-.home__button a:last-of-type{
+.home__button a:last-of-type {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,13 +108,13 @@
     background-color: var(--buttonMenu-hover);
 }
 
-@media (min-width:530px){
+@media (min-width:530px) {
     .infos__home{
         max-width: 450px;
     }
 
     .home__button a:first-of-type,
-    .home__button a:last-of-type{
+    .home__button a:last-of-type {
         width: 160px;
         height: 55px;
 
@@ -129,22 +124,103 @@
 
 @media (min-width: 800px){
 
-    .infos__home{
+    .infos__home {
         max-width: 700px;
     }
 
-    .infos__home h1{
+    .infos__home h1 {
         margin: 0 0 35px 0;
     }
 
-    .infos__home p{
+    .infos__home p {
         margin: 0 0 35px 0;
     }
 
     .home__button a:first-of-type,
-    .home__button a:last-of-type{
+    .home__button a:last-of-type {
         width: 180px;
         height: 65px;
     }
 
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.menu h2 {
+    margin: 8rem 0 5rem 0;
+
+    font-size: 3.4375rem;
+    font-family: var(--secundary-font);
+    font-weight: 500;
+}
+
+.menu__card {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 24px;
+    padding: 0 48px 80px 48px;
+}
+
+.menu__icons {
+    border: 1.5px solid var(--border-icon);
+    border-radius: 12px;
+
+    padding: 40px 34px;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__icons figure {
+    background-color: var(--background-icons);
+
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+
+.menu__icons figure img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu__icons h3 {
+    font-family: var(--principal-font);
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    margin-bottom: 30px;
+}
+
+.menu__icons p {
+    font-family: var(--principal-font);
+    font-weight: 400;
+    font-size: 1rem;
+
+    margin-bottom: 30px;
+}
+
+.menu__icons a {
+    text-decoration: none;
+    color: var(--button-color);
+
+    font-family: var(--principal-font);
+    font-weight: 700;
+    font-size: 1rem;
 }
