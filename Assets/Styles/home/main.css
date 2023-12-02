@@ -34,19 +34,23 @@
 }
 
 .infos__home h1{
+    margin: 0 0 25px 0;
+
     font-size: clamp(2rem, 4vw, 6.25rem);
     font-family: var(--secundary-font);
     font-weight: 400;
 
-    margin: 0 0 25px 0;
+    color: var(--text-color);
 }
 
 .infos__home p{
+    margin: 0 0 25px 0;
+
     font-size: clamp(0.4rem, 2vw, 1.25rem);
     font-family: var(--principal-font);
     font-weight: 400;
 
-    margin: 0 0 25px 0;
+    color: var(--text-color);
 }
 
 .home__button{
@@ -67,7 +71,7 @@
 
     background-color: var(--button-color);
     border-radius: 120px;
-    color: #FFFFFF;
+    color: var(--text-button);
 
     font-size: 0.9rem;
     font-family: var(--principal-font);
@@ -79,7 +83,7 @@
 }
 
 .home__button a:first-of-type:hover {
-    background-color: #5e171d;
+    background-color: var(--buttonTable-hover);
 }
 
 .home__button a:last-of-type{
@@ -92,9 +96,9 @@
     padding: 10px;
 
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid var(--borderButton);
     border-radius: 118px;
-    color: #000000;
+    color: var(--text-color);
 
     font-size: 0.9rem;
     font-family: var(--principal-font);
@@ -106,7 +110,7 @@
 }
 
 .home__button a:last-of-type:hover {
-    background-color: rgb(192, 187, 187);
+    background-color: var(--buttonMenu-hover);
 }
 
 @media (min-width:530px){
