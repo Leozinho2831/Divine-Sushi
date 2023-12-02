@@ -14,6 +14,7 @@
     text-align: center;
     overflow-x: hidden;
 }
+
 .home__main__principal figure{
     position: relative;
 }
@@ -24,7 +25,9 @@
 }
 
 .infos__home{
-    max-width: 700px;
+    max-width: 400px;
+
+    margin: 0 30px;
 
     position: absolute;
     z-index: 1;
@@ -35,7 +38,7 @@
     font-family: var(--secundary-font);
     font-weight: 400;
 
-    margin-bottom: 2rem;
+    margin-bottom: 35px;
 }
 
 .infos__home p{
@@ -43,7 +46,7 @@
     font-family: var(--principal-font);
     font-weight: 400;
 
-    margin-bottom: 2rem;
+    margin: 0 0 35px 0;
 }
 
 .home__button{
@@ -55,9 +58,9 @@
 
 .home__button a:first-of-type{
     background-color: var(--button-color);
-    border-radius: 118px;
+    border-radius: 120px;
 
-    padding: 1.25rem 2rem;
+    padding: 20px 35px;
 
     color: #FFFFFF;
     text-decoration: none;
@@ -78,7 +81,7 @@
     border: 2px solid black;
     border-radius: 118px;
 
-    padding: 1.25rem 2rem;
+    padding: 20px 35px;
 
     color: #000000;
     text-decoration: none;
@@ -92,4 +95,11 @@
 
 .home__button a:last-of-type:hover {
     background-color: rgb(192, 187, 187);
+}
+
+@media (min-width: 800px){
+
+    .infos__home{
+        max-width: 700px;
+    }
 }
