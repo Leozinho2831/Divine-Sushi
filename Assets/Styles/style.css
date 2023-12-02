@@ -6,9 +6,13 @@
 :root{
     --principal-font: 'DM Sans', sans-serif;;
     --secundary-font: 'Playfair Display', serif;
-    --backgeound-color: #F9F9F7;
+    
     --text-color: #000000;
+
+    --backgeound-color: #F9F9F7;
     --button-color: #AD343E;
+
+    --header-background: #474747;
 }
 
 *{
