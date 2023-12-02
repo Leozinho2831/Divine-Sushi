@@ -25,7 +25,7 @@
 }
 
 .infos__home{
-    max-width: 400px;
+    max-width: 350px;
 
     margin: 0 30px;
 
@@ -38,7 +38,7 @@
     font-family: var(--secundary-font);
     font-weight: 400;
 
-    margin-bottom: 35px;
+    margin: 0 0 25px 0;
 }
 
 .infos__home p{
@@ -46,7 +46,7 @@
     font-family: var(--principal-font);
     font-weight: 400;
 
-    margin: 0 0 35px 0;
+    margin: 0 0 25px 0;
 }
 
 .home__button{
@@ -57,18 +57,24 @@
 }
 
 .home__button a:first-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 130px;
+    height: 45px;
+    padding: 10px;
+
     background-color: var(--button-color);
     border-radius: 120px;
-
-    padding: 20px 35px;
-
     color: #FFFFFF;
-    text-decoration: none;
 
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: var(--principal-font);
     font-weight: 700;
+    text-align: center;
 
+    box-shadow: 1px 1px 2px var(--shadow);
     transition: all 0.15s ease-in;
 }
 
@@ -76,25 +82,45 @@
     background-color: #5e171d;
 }
 
- .home__button a:last-of-type{
+.home__button a:last-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 130px;
+    height: 45px;
+    padding: 10px;
+
     background-color: transparent;
     border: 2px solid black;
     border-radius: 118px;
-
-    padding: 20px 35px;
-
     color: #000000;
-    text-decoration: none;
 
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: var(--principal-font);
     font-weight: 700;
+    text-align: center;                                
 
+    box-shadow: 1px 1px 2px var(--shadow);
     transition: all 0.15s ease-in;
- }
+}
 
 .home__button a:last-of-type:hover {
     background-color: rgb(192, 187, 187);
+}
+
+@media (min-width:530px){
+    .infos__home{
+        max-width: 450px;
+    }
+
+    .home__button a:first-of-type,
+    .home__button a:last-of-type{
+        width: 160px;
+        height: 55px;
+
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 800px){
@@ -102,4 +128,19 @@
     .infos__home{
         max-width: 700px;
     }
+
+    .infos__home h1{
+        margin: 0 0 35px 0;
+    }
+
+    .infos__home p{
+        margin: 0 0 35px 0;
+    }
+
+    .home__button a:first-of-type,
+    .home__button a:last-of-type{
+        width: 180px;
+        height: 65px;
+    }
+
 }
