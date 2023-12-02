@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 
     background-color: var(--header-background);
 }
@@ -56,4 +57,8 @@
 .header__redes-sociais a img{
     width: 14px;
     height: 14px;
+}
+
+@media (max-width: 780px){
+    
 }
