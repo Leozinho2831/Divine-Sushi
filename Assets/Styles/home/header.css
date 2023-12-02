@@ -1,6 +1,30 @@
 .header__home{
     width: 100%;
-    height: 12vh;
+    height: 6vh;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     background-color: var(--header-background);
+}
+
+.header__contact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__contact figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__contact figure p{
+    font-size: 1rem;
+    font-family: var(--principal-font);
+    line-height: 1.3rem;
+    text-align: center;
 }
