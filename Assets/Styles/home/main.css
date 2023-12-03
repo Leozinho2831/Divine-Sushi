@@ -214,15 +214,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 80px;
+
+    padding: 100px;
+
+    background-color: var(--creme-color);
 }
 
-.about__image {
-    margin: 10rem;
-}
+.about__image > img{
+    border-radius: 12px;
+    width: 100%;
 
-.about__image img {
-    max-width: 500px;
+    max-width: 600px;
+    max-height: 560px;
     min-width: 300px;
+    min-height: 260px;
+}
+
+.about__text{
+    max-width: 400px;
 }
 
 @media (min-width:600px){
