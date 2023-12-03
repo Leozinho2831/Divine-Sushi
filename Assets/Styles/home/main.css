@@ -145,7 +145,7 @@
 }
 
 .menu__icons {
-    border: 1.5px solid var(--border-icon);
+    border: 1.5px solid var(--green-light);
     border-radius: 12px;
     text-align: center;
 
