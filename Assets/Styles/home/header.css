@@ -127,6 +127,8 @@
 .header__speedContact figure p{
     font-size: 1rem;
     font-family: var(--principal-font);
+    font-weight: 400;
+
     line-height: 1.3rem;
     text-align: center;
 
