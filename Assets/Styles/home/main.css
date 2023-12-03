@@ -432,6 +432,20 @@
 
         padding: 30px;
     }
+
+    .about__contact h3 {
+        font-size: 16px;
+    }
+
+    .about__contact__text img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .about__contact__text p {
+        font-size: 0.5rem;
+        line-height: 20px;
+    }
 }
 
 @media (max-width: 600px){
@@ -443,5 +457,14 @@
     .about__image > img {
         width: 300px;
         height: 260px;
+    }
+
+    .about__contact{
+        width: 280px;
+        height: 200px;
+    }
+
+    .about__contact__text {
+        gap: 0;
     }
 }
