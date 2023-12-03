@@ -132,7 +132,7 @@
     line-height: 1.3rem;
     text-align: center;
 
-    color: var(--headerContact-color);
+    color: var(--creme-color);
 }
 
 .mobile__redes-sociais,
@@ -216,6 +216,10 @@
     line-height: 24px;
 
     color: var(--text-buttons);
+}
+
+.navigation__button:hover{
+    background-color: var(--whiteHover-color);
 }
 
 
