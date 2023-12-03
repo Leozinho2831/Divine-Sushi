@@ -128,9 +128,8 @@
     text-align: center;
 }
 
-.menu__content{
+.menu__content {
     width: 100%;
-    max-width: 1360px;
     
     display: flex;
     justify-content: center;
@@ -150,9 +149,9 @@
     border-radius: 12px;
     text-align: center;
 
-    max-width: 320px;
+    max-width: 300px;
     min-width: 300px;
-    max-height: 400px;
+    max-height: 375px;
     min-height: 375px;
     padding: 40px 35px;
 
@@ -220,7 +219,7 @@
     }
 }
 
-@media (min-width: 700px){
+@media (min-width: 710px){
 
     .menu__card{
         flex-wrap: wrap;
@@ -258,10 +257,21 @@
     }
 }
 
-@media (min-width: 1600px){
+@media (min-width: 1030px){
+
+    .menu__content{
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 1360px){
 
     .home__main{
         max-width: 1600px;
         margin: 0 auto;
+    }
+
+    .menu__content{
+        max-width: 1600px;
     }
 }
