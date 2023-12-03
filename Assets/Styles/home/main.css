@@ -125,10 +125,16 @@
     font-size: 3.4rem;
     font-family: var(--secundary-font);
     font-weight: 500;
+    text-align: center;
 }
 
 .menu__content{
     width: 100%;
+    max-width: 1360px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu__card {
@@ -136,7 +142,6 @@
     align-items: center;
     gap: 25px;
 
-    max-width: 1360px;
     overflow-x: auto;
 }
 
@@ -145,7 +150,9 @@
     border-radius: 12px;
     text-align: center;
 
+    max-width: 320px;
     min-width: 300px;
+    max-height: 400px;
     min-height: 375px;
     padding: 40px 35px;
 
@@ -218,6 +225,7 @@
     .menu__card{
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
 }
 
