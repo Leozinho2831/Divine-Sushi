@@ -95,7 +95,7 @@
     background-color: transparent;
     border: 2px solid var(--greenItens-color);
     border-radius: 118px;
-    color: var(--greenItens-color);
+    color: var(--text-buttons);
 
     font-size: 0.9rem;
     font-family: var(--principal-font);
