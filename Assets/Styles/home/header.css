@@ -202,20 +202,18 @@
 }
 
 .navigation__button{
-    color: var(--text-buttons);
-    border: 1.5px solid var(--greenItens-color);
-    border-radius: 120px;
-
-    padding: 10px 20px;
-}
-
-.navigation__button a{
     font-family: var(--principal-font);
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
 
     color: var(--text-buttons);
+    border: 1.5px solid var(--greenItens-color);
+    border-radius: 120px;
+
+    padding: 10px 20px;
+
+    transition: all 0.15s ease-in;
 }
 
 .navigation__button:hover{
