@@ -210,7 +210,20 @@
     color: var(--redHover-color);
 }
 
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.about__image {
+    margin: 10rem;
+}
+
+.about__image img {
+    max-width: 500px;
+    min-width: 300px;
+}
 
 @media (min-width:600px){
 
