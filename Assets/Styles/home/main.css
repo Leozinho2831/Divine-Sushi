@@ -107,7 +107,7 @@
 }
 
 .home__button a:last-of-type:hover {
-    background-color: var(--buttonMenu-hover);
+    background-color: var(--whiteHover-icons);
 }
 
 .menu {
