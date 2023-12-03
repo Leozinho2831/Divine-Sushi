@@ -179,6 +179,33 @@
     }
 }
 
+.header__navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+    padding: 20px 150px;
+}
+
+.header__navigation figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navigation__itens{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navigation__itens li:first-of-type{
+    background-color: var(--green-light);
+    border-radius: 35px;
+}
+
 @media (max-width: 360px){
 
     .mobile__speedContact{
