@@ -416,3 +416,11 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 910px) {
+    .about__image {
+        width: 80vw;
+
+       
+    }
+}
