@@ -32,11 +32,11 @@
 
 @keyframes menuOpen{
     0%{
-        transform: translateY(0);
+        height: 0;
     }
 
     100%{
-        transform: translateY(100%);
+        height: calc(100vh - 98px);
     }
 }
 
