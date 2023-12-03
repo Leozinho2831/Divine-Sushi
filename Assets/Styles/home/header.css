@@ -26,14 +26,18 @@
     justify-content: center;
     gap: 3px;
 
+    padding: 10px;
+
     cursor: pointer;
 }
 
 .mobile__menu div{
-    width: 16px;
-    height: 2px;
+    width: 15px;
+    height: 1.5px;
 
     background-color: var(--menu-color);
+
+    transition: all 0.3s ease-in-out;
 }
 
 /* menu aberto */
