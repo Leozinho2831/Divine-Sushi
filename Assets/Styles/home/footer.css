@@ -1,3 +1,40 @@
 .footer__home{
+    width: 100%;
+    height: 100%;
+
+    padding: 50px 30px;
+
     background-color: var(--contact-background);
+}
+
+.footer__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__section picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 400px;
+}
+
+.footer__logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__logo{
+    font-family: var(--secundary-font);
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+
+    color: var(--creme-color);
+    line-height: 29.333px;
+    letter-spacing: -0.4px;
 }
