@@ -116,7 +116,7 @@
     font-weight: 500;
     font-size: 1.4rem;
 
-    line-height: 24px;
+    line-height: 1.5rem;
     color: var(--greenItens-color);
     text-align: center;
 }
@@ -226,7 +226,7 @@
     font-style: italic;
     font-weight: 600;
 
-    line-height: 29px;
+    line-height: 1.8rem;
     letter-spacing: -0.4px;
 
     color: var(--logo-color);
@@ -248,7 +248,7 @@
     font-weight: 500;
     font-size: 1rem;
 
-    line-height: 24px;
+    line-height: 1.5rem;
     color: var(--greenItens-color);
     text-align: center;
 }
@@ -261,7 +261,7 @@
     font-family: var(--principal-font);
     font-size: 1rem;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.5rem;
     text-align: center;
 
     color: var(--text-buttons);
