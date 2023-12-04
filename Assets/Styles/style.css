@@ -32,6 +32,7 @@
     --background-icons: rgba(77, 89, 43, 0.07);
 
     --text-footer: #ADB29E;
+    --border-footer: #414536;
 }
 
 @keyframes menuOpen{
