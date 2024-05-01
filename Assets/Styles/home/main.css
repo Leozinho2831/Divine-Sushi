@@ -465,6 +465,21 @@
     height: 15px;
 }
 
+.cook {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 120px 0;
+    margin: 0;
+
+    background-color: var(--creme-color);
+}
+
+.cook__images {
+    display: flex;
+    width: 30%;
+}
+
 @media (min-width:600px){
 
     .infos__home{
