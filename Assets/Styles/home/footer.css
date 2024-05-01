@@ -124,10 +124,10 @@
 }
 
 #footer__title-posts{
-    margin: -20px 0;
+    margin: 10px 0;
 }
 
-#footer__title-posts h3{
+#footer__title-posts{
     font-family: var(--principal-font);
     font-size: 1rem;
     font-weight: 700;
@@ -185,10 +185,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: -10px 0;
+        margin: 0 0 20px 0;
     }
 
     .footer__posts{
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .footer__section{
         flex-direction: row;
     }
 }
