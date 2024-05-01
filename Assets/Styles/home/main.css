@@ -470,6 +470,7 @@
     justify-content: space-around;
     
     padding: 120px 0;
+    margin: 0;
 
     background-color: var(--creme-color);
 }
