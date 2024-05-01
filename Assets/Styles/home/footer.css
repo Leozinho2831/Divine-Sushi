@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 
     max-width: 400px;
 }
@@ -123,13 +123,15 @@
     gap: 20px;
 }
 
-.footer__posts h3{
+#footer__title-posts{
+    margin: -20px 0;
+}
+
+#footer__title-posts h3{
     font-family: var(--principal-font);
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.5rem;
-
-    margin: 0 0 30px 0;
 
     color: var(--creme-color);
 }
@@ -177,6 +179,16 @@
 
 }
 
-@media(min-width: 950px){
+@media(min-width: 800px){
 
+    #footer__title-posts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -10px 0;
+    }
+
+    .footer__posts{
+        flex-direction: row;
+    }
 }
