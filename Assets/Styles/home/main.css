@@ -460,18 +460,16 @@
 }
 
 .delivery__service figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: var(--redItens-color);
 
     width: 30px;
     height: 30px;
 
     border-radius: 100%;
-}
-
-.delivery__service figure img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media (min-width:600px){
