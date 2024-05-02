@@ -407,66 +407,6 @@
 
 .delivery {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-
-    padding: 120px 152px;
-
-    color: var(--greenItens-color);
-}
-
-.delivery__dishes {
-    padding-top: 60px;
-}
-
-.delivery__details {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.delivery__details h2 {
-    font-family: var(--secundary-font);
-    font-weight: 500;
-    line-height: 60.5px;
-    font-size: 55px;
-}
-
-.delivery__details > p {
-    color: var(--tinyItens-color);
-
-    font-family: var(--principal-font);
-    font-weight: 400;
-    line-height: 24px;
-    font-size: 16px;
-    
-    margin: 0 0 30px 0;
-}
-
-.delivery__resume {
-    display: flex;
-    gap: 20px;
-}
-
-.delivery__resume figure {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 7px;
-
-    border-radius: 100px;
-    background-color: var(--redItens-color);
-}
-
-.delivery__resume figure img {
-    width: 15px;
-    height: 15px;
-}
-
-.cook {
-    display: flex;
     justify-content: space-around;
     
     padding: 120px 0;
@@ -475,13 +415,63 @@
     background-color: var(--creme-color);
 }
 
-.cook__images {
+.delivery__images {
     display: flex;
     width: 30%;
 }
 
-.cook__textos {
-    width: 30%;
+.delivery__plates {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    margin-top: 1em;
+    padding: 1rem;
+}
+
+.delivery__textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+
+.delivery__textos h2 {
+    font-family: var(--secundary-font);
+    font-weight: 500;
+    font-size: 3.43rem;
+    color: var(--greenItens-color);
+}
+
+.delivery__textos p {
+    font-size: 1rem;
+    color: var(--tinyItens-color);
+}
+
+.delivery__description {
+    margin-top: 52px;
+}
+
+.delivery__service{
+    display: flex;
+    align-items: center;
+
+    margin-top: 0.5rem;
+}
+
+.delivery__service figure {
+    background-color: var(--redItens-color);
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 100%;
+}
+
+.delivery__service figure img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (min-width:600px){
