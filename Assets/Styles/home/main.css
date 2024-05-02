@@ -410,14 +410,13 @@
     justify-content: space-around;
     
     padding: 120px 0;
-    margin: 0;
 
     background-color: var(--creme-color);
 }
 
 .delivery__images {
     display: flex;
-    width: 30%;
+    width: 1000px;
 }
 
 .delivery__plates {
@@ -433,7 +432,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 25%;
+    width: 600px;
+
+    background-color: blue;
 }
 
 .delivery__textos h2 {
