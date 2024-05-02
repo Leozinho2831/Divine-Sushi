@@ -468,12 +468,6 @@
     border-radius: 100%;
 }
 
-.delivery__service figure img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 @media (min-width:600px){
 
     .infos__home{
