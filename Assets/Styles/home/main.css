@@ -448,7 +448,7 @@
 }
 
 .delivery__textos p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--tinyItens-color);
 }
 
@@ -572,22 +572,26 @@
         justify-content: end;
     }
 
-    .delivery__images div img {
+    .delivery__images img {
         width: 70%;
     }
 
     .delivery__textos {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         width: 100%;
+    }
+
+    .delivery__textos-container {
+        text-align: center;
     }
 
     .delivery__description {
         display: flex;
         flex-direction: column;
-        align-items: right;
-        width: 100%;
+        margin: auto;
     }
 }
 
@@ -707,5 +711,13 @@
     .about__contact__text p {
         font-size: 0.5rem;
         line-height: 20px;
+    }
+
+    .delivery__textos-container h2 {
+        font-size: 2rem;
+    }
+
+    .delivery__textos-container p {
+        font-size: 1.2rem;
     }
 }
