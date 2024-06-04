@@ -410,6 +410,7 @@
     justify-content: space-around;
     
     padding: 120px 0;
+    width: 90%;
 
     background-color: var(--creme-color);
 }
@@ -433,8 +434,6 @@
     flex-direction: column;
     justify-content: center;
     width: 600px;
-
-    background-color: blue;
 }
 
 .delivery__textos-container {
@@ -480,6 +479,12 @@
     height: 30px;
 
     border-radius: 100%;
+}
+
+.delivery__service p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--greenItens-color);
 }
 
 @media (min-width:600px){
