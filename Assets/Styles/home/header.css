@@ -288,13 +288,6 @@
 
 @media (min-width: 790px){
 
-    .header__contact-screen{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 20px;
-    }
-
     .header__navigation{
         padding: 20px 150px;
     }
@@ -307,10 +300,12 @@
         padding: 10px 150px;
     
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
     
         background-color: var(--contact-background);
     }
-
     .navigation__itens{
         display: flex;
         align-items: center;
