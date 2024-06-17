@@ -236,12 +236,12 @@
     display: none;
 }
 
-.navigation__itens li:first-of-type{
+/* .navigation__itens li:first-of-type{
     background-color: var(--green-light);
     border-radius: 35px;
 
     padding: 6px 14px;
-}
+} */
 
 .navigation__itens li a{
     font-family: var(--principal-font);
