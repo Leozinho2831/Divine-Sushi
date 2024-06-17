@@ -4,20 +4,22 @@ function navigation(page) {
 
 function colorButton (){
 
+    const selectPage = window.location.pathname;
+
     const buttons = {
         'index.html': document.querySelector('#buttonHome'),
-        'pages/About.html': document.querySelector('#buttonAbout'),
-        'pages/Book.html': document.querySelector('#buttonBook'),
-        'pages/Menu.html': document.querySelector('#buttonMenu'),
-        'pages/Contact.html': document.querySelector('#buttonContact'),
-        'pages/Blog.html': document.querySelector('#buttonBlog'),
-        'pages/The_details.html': document.querySelector('#buttonBlog')
+        'About.html': document.querySelector('#buttonAbout'),
+        'Book.html': document.querySelector('#buttonHome'),
+        'Menu.html': document.querySelector('#buttonMenu'),
+        'Contact.html': document.querySelector('#buttonContact'),
+        'Blog.html': document.querySelector('#buttonBlog'),
+        'The_details.html': document.querySelector('#buttonDetails')
     }
 
-    const page = selectPag.split('/').pop();
+    const page = selectPage.split('/').pop();
 
     if(buttons[page]){
-        buttons[page].cssText = 'backgroundColor: #DBDFD0; borderRadius: 35px; padding: 6px 14px'
+        buttons[page].style.cssText = 'background-color: #DBDFD0; border-radius: 35px; padding: 6px 14px;';
     }
 };
 
