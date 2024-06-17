@@ -168,4 +168,8 @@
     .information h1, .information h2 {
         font-size: 2.2rem;
     }
+
+    .information__image img{
+        width: 75%;
+    }
 }
