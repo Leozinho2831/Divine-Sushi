@@ -80,6 +80,12 @@
     gap: 20px;
 }
 
+/* javascript class */
+
+.hiddenImages{
+    display: none;
+}
+
 .our-menu__plates {
     display: flex;
     flex-direction: column;
