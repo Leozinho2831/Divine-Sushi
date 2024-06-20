@@ -4,7 +4,7 @@
 }
 
 .publicity__video {
-    background-image: url(../../../Images/images-about/BG.png);
+    background-image: url(../../../Assets/Images/images-about/BG.png);
     background-size: cover;
     
     display: flex;
