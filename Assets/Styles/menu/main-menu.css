@@ -35,7 +35,7 @@
     gap: 20px;
 }
 
-.our-menu__nav a {
+.our-menu__nav button{
     border: 1px solid #DBDFD0;
     border-radius: 50px;
     
@@ -46,11 +46,27 @@
     font-weight: 700;
 
     color: var(--greenItens-color);
+
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+    box-shadow: 1px 1px 1px var(--shadow);
 }
 
-#all {
+.our-menu__nav button:hover{
+    border: 0;
+    background-color: var(--redHover-color);
+    color: var(--whiteHover-color);
+}
+
+#buttonActive{
+    border: 0;
     background-color: var(--redItens-color);
     color: #FFFFFF;
+}
+
+#buttonActive:hover{
+    background-color: var(--redHover-color);
+    color: var(--whiteHover-color);
 }
 
 .our-menu__container {
