@@ -48,20 +48,26 @@ function selectMenu(){
     hiddenImages();
     resetButtonStyles();
 
-    if(clickButton === buttons.button1){
-        showAllImages();
-        buttons.button1.style.cssText = 'background-color: var(--redItens-color); color: #FFFFFF; border: 0;';
-    } else if(clickButton === buttons.button2){
-        showImages(images.images1);
-        buttons.button2.style.cssText = 'background-color: var(--redItens-color); color: #FFFFFF; border: 0;';
-    } else if(clickButton === buttons.button3){
-        showImages(images.images2);
-        buttons.button3.style.cssText = 'background-color: var(--redItens-color); color: #FFFFFF; border: 0;';
-    } else if(clickButton === buttons.button4){
-        showImages(images.images3);
-        buttons.button4.style.cssText = 'background-color: var(--redItens-color); color: #FFFFFF; border: 0;';
-    } else if(clickButton === buttons.button5){
-        showImages(images.images4);
-        buttons.button5.style.cssText = 'background-color: var(--redItens-color); color: #FFFFFF; border: 0;';
+    switch(clickButton) {
+        case buttons.button1: 
+            showAllImages();
+            buttons.button1.style.cssText = 'background-color: var(--redItens-color); color: #FFFFFF; border: 0;';
+            break;
+        case buttons.button2:
+            showImages(images.images1);
+            buttons.button2.style.cssText = 'background-color: var(--redItens-color); color: #FFFFFF; border: 0;';
+            break;
+        case buttons.button3:
+            showImages(images.images2);
+            buttons.button3.style.cssText = 'background-color: var(--redItens-color); color: #FFFFFF; border: 0;';
+            break;
+        case buttons.button4:
+            showImages(images.images3);
+            buttons.button4.style.cssText = 'background-color: var(--redItens-color); color: #FFFFFF; border: 0;';
+            break;
+        case buttons.button5:
+            showImages(images.images4);
+            buttons.button5.style.cssText = 'background-color: var(--redItens-color); color: #FFFFFF; border: 0;';
+            break;
     }
 }
