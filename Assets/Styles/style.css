@@ -11,6 +11,9 @@
 /* menu */
 @import 'menu/main-menu.css';
 
+/* contact */
+@import 'contact/main__contact.css';
+
 @import 'https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:ital,wght@0,400;0,500;1,600&display=swap';
 
 :root{
@@ -46,6 +49,10 @@
     /* book */
 
     --bg-form: #ffffff;
+
+    /* contact */
+
+    --bg-contact: #ffff;
 }
 
 @keyframes menuOpen{
