@@ -77,8 +77,17 @@
     padding-top: .5em;
 }
 
+.blog__article-3 {
+    display: none;
+}
+
 @media (max-width: 1475px) {
-    .blog__article-container {
+    .blog__article {
+        display: none;
+    }
+
+    .blog__article-3 {
+        display: flex;
         flex-direction: column;
     }
 }
@@ -86,6 +95,18 @@
 @media (max-width: 1100px) {
     .blog__text h1 {
         font-size: 4rem;
+    }
+
+    .blog__article {
+        display: flex;
+    }
+
+    .blog__article-container {
+        flex-direction: column;
+    }
+
+    .blog__article-3 {
+        display: none;
     }
 }
 
@@ -100,12 +121,8 @@
 
     .blog__article {
         flex-direction: row;
-        margin-left: 20px;
+        margin: 0 20px;
         overflow-x: auto;
         width: 100%;
-    }
-
-    .our-menu__plates {
-        min-width: 200px;
     }
 }
