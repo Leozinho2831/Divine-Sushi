@@ -59,6 +59,7 @@
 }
 
 *{
+    font-family: var(--principal-font);
     padding: 0;
     margin: 0;
     border: 0;
