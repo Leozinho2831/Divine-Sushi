@@ -1,0 +1,7 @@
+.contact__background-creme{
+    background-color: var(--creme-color);
+}
+
+.contact__background-white{
+    background-color: var(--bg-contact);
+}
