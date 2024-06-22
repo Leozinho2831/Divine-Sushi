@@ -499,6 +499,7 @@
     text-align: center;
     margin-bottom: 1em;
     
+    color: var(--greenItens-color);
     font-size: 3.4rem;
     font-weight: 500;
     font-family: var(--secundary-font);
@@ -530,7 +531,7 @@
 
 .feedback__texto p {
     color: var(--border-footer);
-    font-size: 1,125rem;
+    font-size: 1.125rem;
     padding: 1em 0;
 }
 
@@ -744,7 +745,7 @@
 @media (min-width: 1360px){
 
     section{
-        max-width: 1600px;
+        max-width: 1800px;
         margin: 0 auto;
     }
 

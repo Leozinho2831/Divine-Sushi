@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Styles/style.css">
-    <link rel="stylesheet" href="../Styles/home/menu/main-menu.css">
     <title>Menu</title>
 </head>
 <body>
@@ -102,116 +101,56 @@
                 <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
             </div>
             <nav class="our-menu__nav">
-                <a href="#" id="all">All</a>
-                <a href="#">Breakfast</a>
-                <a href="#">Main Dishes</a>
-                <a href="#">Drinks</a>
-                <a href="#">Desserts</a>
+                <button class="button1" id="buttonActive" onclick="selectMenu()" >All</button>
+                <button class="button2" onclick="selectMenu()" >Breakfast</button>
+                <button class="button3" onclick="selectMenu()" >Main Dishes</button>
+                <button class="button4" onclick="selectMenu()" >Drinks</button>
+                <button class="button5" onclick="selectMenu()" >Desserts</button>
             </nav>
             <div class="our-menu__container">
-                <div class="our-menu__plates-container">
-                    <div class="our-menu__plates">
-                        <img src="../Images/images-menu/ovos.png">
-                        <h3>$ 9.99</h3>
-                        <h2>Fried Eggs</h2>
-                        <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
-                    </div>
-                    <div class="our-menu__plates">
-                        <img src="../Images/images-menu/pizza.png">
-                        <h3>$ 15.99</h3>
-                        <h2>Hawaiian</h2>
-                        <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
-                    </div>
-                </div>
-                <div class="our-menu__plates-container">
-                    <div class="our-menu__plates">
-                        <img src="../Images/images-menu/cocktail.png">
-                        <h3>$ 7.25</h3>
-                        <h2>Martinez Cocktail</h2>
-                        <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
-                    </div>
-                    <div class="our-menu__plates">
-                        <img src="../Images/images-menu/bolo.png">
-                        <h3>$ 20.99</h3>
-                        <h2>Butterscotch Cake</h2>
-                        <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="our-menu__container">
-                <div class="our-menu__plates-container">
-                    <div class="our-menu__plates">
-                        <img src="../Images/images-menu/limonada.png">
-                        <h3>$ 5.89</h3>
-                        <h2>Mint Lemonade</h2>
-                        <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
-                    </div>
-                    <div class="our-menu__plates">
-                        <img src="../Images/images-menu/sorvete.png">
-                        <h3>$ 18.05</h3>
-                        <h2>Chocolate Icecream</h2>
-                        <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
-                    </div>
-                </div>
-                <div class="our-menu__plates-container">
-                    <div class="our-menu__plates">
-                        <img src="../Images/images-menu/hamburger.png">
-                        <h3>$ 12.55</h3>
-                        <h2>Cheese Burger</h2>
-                        <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
-                    </div>
-                    <div class="our-menu__plates">
-                        <img src="../Images/images-menu/waffles.png">
-                        <h3>$ 12.99</h3>
-                        <h2>Classic Waffles</h2>
-                        <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="our-menu__container-mobile">
-                <div class="our-menu__plates">
+                <div class="our-menu__plates breakfast">
                     <img src="../Images/images-menu/ovos.png">
                     <h3>$ 9.99</h3>
                     <h2>Fried Eggs</h2>
                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
                 </div>
-                <div class="our-menu__plates">
+                <div class="our-menu__plates mainDishes">
                     <img src="../Images/images-menu/pizza.png">
                     <h3>$ 15.99</h3>
                     <h2>Hawaiian</h2>
                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
                 </div>
-                <div class="our-menu__plates">
+                <div class="our-menu__plates drinks">
                     <img src="../Images/images-menu/cocktail.png">
                     <h3>$ 7.25</h3>
                     <h2>Martinez Cocktail</h2>
                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
                 </div>
-                <div class="our-menu__plates">
+                <div class="our-menu__plates dessert">
                     <img src="../Images/images-menu/bolo.png">
                     <h3>$ 20.99</h3>
                     <h2>Butterscotch Cake</h2>
                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
                 </div>
-                <div class="our-menu__plates">
+                <div class="our-menu__plates drinks">
                     <img src="../Images/images-menu/limonada.png">
                     <h3>$ 5.89</h3>
                     <h2>Mint Lemonade</h2>
                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
                 </div>
-                <div class="our-menu__plates">
+                <div class="our-menu__plates dessert">
                     <img src="../Images/images-menu/sorvete.png">
                     <h3>$ 18.05</h3>
                     <h2>Chocolate Icecream</h2>
                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
                 </div>
-                <div class="our-menu__plates">
+                <div class="our-menu__plates mainDishes">
                     <img src="../Images/images-menu/hamburger.png">
                     <h3>$ 12.55</h3>
                     <h2>Cheese Burger</h2>
                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
                 </div>
-                <div class="our-menu__plates">
+                <div class="our-menu__plates breakfast">
                     <img src="../Images/images-menu/waffles.png">
                     <h3>$ 12.99</h3>
                     <h2>Classic Waffles</h2>
@@ -343,5 +282,6 @@
 
     <script src="../Javascript/Script.js"></script>
     <script src="../Javascript/ChangeButton.js"></script>
+    <script src="../Javascript/buttonsMenu.js"></script>
 </body>
 </html>
