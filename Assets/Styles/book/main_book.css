@@ -50,6 +50,8 @@
 
     position: absolute;
     z-index: 1;
+    border-radius: 10px;
+    box-shadow: 30px 30px 70px var(--shadow-form);
 
     display: flex;
     flex-direction: column;
