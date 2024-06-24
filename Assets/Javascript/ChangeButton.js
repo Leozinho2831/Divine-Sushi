@@ -13,7 +13,7 @@ function colorButton (){
         'Menu.html': document.querySelector('#buttonMenu'),
         'Contact.html': document.querySelector('#buttonContact'),
         'Blog.html': document.querySelector('#buttonBlog'),
-        'The_details.html': document.querySelector('#buttonDetails')
+        'The_details.html': document.querySelector('#buttonBlog')
     }
 
     const page = selectPage.split('/').pop();
