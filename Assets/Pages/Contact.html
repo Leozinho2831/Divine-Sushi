@@ -131,18 +131,26 @@
         </div>
 
         <form action="#" class="contact__form">
-            <div>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome">
-                <label for="e-mail"></label>
-                <input type="email" name="e-mail">
+            <div class="row__organization">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome">
+                </div>
+                <div class="form__row-contact">
+                    <label for="e-mail">Email</label>
+                    <input type="email" name="e-mail">
+                </div>
             </div>
-            <div>
-                <label for="subject"></label>
-                <input type="text" name="subject">
-                <label for="message"></label>
-                <textarea name="message"placeholder="White your message"></textarea>
-                <input type="submit" value="Send">
+            <div class="organization__message">
+                <div>
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message"placeholder="White your message" class=""></textarea>
+                </div>
+                <input type="submit" value="Send" id="form__send">
             </div>
         </form>
     </main>

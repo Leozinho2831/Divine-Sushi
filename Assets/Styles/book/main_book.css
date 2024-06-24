@@ -60,10 +60,6 @@
     padding: 40px;
 }
 
-.book__form div{
-    width: 100%;
-}
-
 .form__row{
     display: flex;
     margin: 0 0 20px 0;
